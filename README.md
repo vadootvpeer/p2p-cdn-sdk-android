@@ -38,7 +38,7 @@ The sample apks display on the screen the bandwidth savings you get by distribut
 
 ## Token generation
 
-Make a POST request to api.peervadoo.com/get_token?email=Your-email-id
+To get token for your application register from here https://api.peervadoo.com/register 
 
 A token will be sent to your email id. Click on verification link in email to verify and start using the token.
 
@@ -46,7 +46,7 @@ A token will be sent to your email id. Click on verification link in email to ve
 
 Get the token from above step
 
-Make a GET request to api.peervadoo.com/get_stats?token=Your-token
+Stats for your app are available at https://api.peervadoo.com/get_stats?token=Your-token
 
 The response gives how much of consumption is done through http and how much you saved with p2p
 
@@ -56,7 +56,7 @@ Raise an issue for any additional feature request which will be actively worked 
 
 ## Contributors
 
-[Anil](https://gitlab.com/matcha72)
+[Anil](https://github.com/Anil-matcha)
 
 [Ankur](https://github.com/ncodepro)
 
