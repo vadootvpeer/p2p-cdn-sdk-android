@@ -2,7 +2,7 @@
 <img src="https://media-exp1.licdn.com/dms/image/C510BAQEut625xhgL8w/company-logo_200_200/0?e=1595462400&v=beta&t=34DYAra_uBHEmaJjV_iOaaZnroFxQ2csZgXwJsco7rg"  width="150" height="150">  
 </p> 
 
-<h4 align="center">Android p2p cdn sdk to distribute load and reduce costs(https://grow.peervadoo.com/)</h4>
+<h4 align="center">Android p2p cdn sdk to distribute load and reduce costs(https://peervadoo.com)</h4>
 
 <p align="center">
 <a href="https://android-arsenal.com/api?level=19"><img src="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat" alt="api"></a>        
