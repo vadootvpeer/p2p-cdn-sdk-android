@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Player_Activity"></activity>
-        <meta-data android:value="E8kMtCoDrFxgJBTtmfvb5xV6pNM"
+        <meta-data android:value="uLn8qh77QOR2JDoBrtkSd0IM-sg"
             android:name="vadoo_token"/>
     </application>
 
