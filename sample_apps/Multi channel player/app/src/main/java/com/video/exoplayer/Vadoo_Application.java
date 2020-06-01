@@ -1,7 +1,8 @@
 package com.video.exoplayer;
 
 import android.app.Application;
-import fr.pchab.webrtcclient.VadooEngine;
+
+import com.vadoo.sdk.VadooEngine;
 
 public class Vadoo_Application extends Application {
     private VadooEngine engine = null;

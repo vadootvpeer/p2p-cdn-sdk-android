@@ -37,5 +37,5 @@ dependencies {
     implementation 'com.google.android.exoplayer:exoplayer:2.10.7'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
-    implementation 'com.vadoo:p2pengine:0.0.1'
+    implementation 'com.vadoo:p2pengine:0.0.2'
 }

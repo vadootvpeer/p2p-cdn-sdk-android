@@ -20,8 +20,7 @@ import com.google.android.exoplayer2.upstream.DefaultAllocator;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
-
-import fr.pchab.webrtcclient.VadooEngine;
+import com.vadoo.sdk.VadooEngine;
 
 public class Player_Activity extends Activity {
     private PlayerView playerView;

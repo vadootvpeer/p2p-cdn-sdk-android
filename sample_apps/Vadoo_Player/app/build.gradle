@@ -35,5 +35,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.android.exoplayer:exoplayer:2.10.7'
-    implementation 'com.vadoo:p2pengine:0.0.1'
+    implementation 'com.vadoo:p2pengine:0.0.2'
 }
