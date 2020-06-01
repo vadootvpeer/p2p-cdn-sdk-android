@@ -11,7 +11,7 @@ maven {
 In your module build.gradle file add below line in dependencies
 
 ```
-implementation 'com.vadoo:p2pengine:0.0.1'
+implementation 'com.vadoo:p2pengine:0.0.2'
 ```
 
 Also add below code in **android** section to enable Java 8 support which is needed for Exoplayer
