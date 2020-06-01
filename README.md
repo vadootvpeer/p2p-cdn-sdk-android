@@ -2,7 +2,7 @@
 <img src="https://media-exp1.licdn.com/dms/image/C510BAQEut625xhgL8w/company-logo_200_200/0?e=1595462400&v=beta&t=34DYAra_uBHEmaJjV_iOaaZnroFxQ2csZgXwJsco7rg"  width="150" height="150">  
 </p> 
 
-<h4 align="center">Android p2p cdn sdk to distribute load and reduce costs(https://grow.peervadoo.com/)</h4>
+<h4 align="center">Android p2p cdn sdk to distribute load and reduce costs(https://peervadoo.com)</h4>
 
 <p align="center">
 <a href="https://android-arsenal.com/api?level=19"><img src="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat" alt="api"></a>        
@@ -38,7 +38,7 @@ The sample apks display on the screen the bandwidth savings you get by distribut
 
 ## Token generation
 
-Make a POST request to api.peervadoo.com/get_token?email=Your-email-id
+To get token for your application register from here https://api.peervadoo.com/register 
 
 A token will be sent to your email id. Click on verification link in email to verify and start using the token.
 
@@ -46,7 +46,7 @@ A token will be sent to your email id. Click on verification link in email to ve
 
 Get the token from above step
 
-Make a GET request to api.peervadoo.com/get_stats?token=Your-token
+Stats for your app are available at https://api.peervadoo.com/get_stats?token=Your-token
 
 The response gives how much of consumption is done through http and how much you saved with p2p
 
@@ -56,7 +56,7 @@ Raise an issue for any additional feature request which will be actively worked 
 
 ## Contributors
 
-[Anil](https://gitlab.com/matcha72)
+[Anil](https://github.com/Anil-matcha)
 
 [Ankur](https://github.com/ncodepro)
 
