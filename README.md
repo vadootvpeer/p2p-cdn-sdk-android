@@ -44,11 +44,9 @@ A token will be sent to your email id. Click on verification link in email to ve
 
 ## Bandwidth Savings info
 
-Get the token from above step
+Complete Dashboard with monthly savings, billing, configurations and additional info is available at https://api.peervadoo.com/login 
 
-Stats for your app are available at https://api.peervadoo.com/get_stats?token=Your-token
-
-The response gives how much of consumption is done through http and how much you saved with p2p
+Login using the credentials of signup
 
 ## Support
 
