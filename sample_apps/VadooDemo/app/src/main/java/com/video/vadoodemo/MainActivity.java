@@ -18,16 +18,13 @@ import com.google.android.exoplayer2.upstream.DefaultAllocator;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
-import com.video.tinyvadoo.VadooLoader;
+import com.video.vadoolite.VadooLoader;
 
 public class MainActivity extends AppCompatActivity {
 
 
     private PlayerView playerView;
     private SimpleExoPlayer player;
-    TextView bandwidthmeter;
-    int http_data = 0;
-    int p2p_data = 0;
     VadooLoader loader;
 
     @Override
