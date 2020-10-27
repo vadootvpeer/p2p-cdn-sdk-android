@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEHpLFCTyRj4Q/company-logo_200_200/0?e=1602115200&v=beta&t=606kqSKtPLCaRPfseWvYnFQCTXyZ6zEhlckyn_dFm3w"  width="150" height="150">  
+<img src="https://github.com/vadootvpeer/sdk-android/raw/master/logo.jpg"  width="150" height="150">  
 </p> 
 
 <h4 align="center">Android p2p cdn sdk to distribute load and reduce costs(https://peervadoo.com)</h4>
