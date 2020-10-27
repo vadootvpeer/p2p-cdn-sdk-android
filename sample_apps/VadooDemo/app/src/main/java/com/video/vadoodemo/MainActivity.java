@@ -18,6 +18,7 @@ import com.google.android.exoplayer2.upstream.DefaultAllocator;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
+import com.video.vadoolite.DataListener;
 import com.video.vadoolite.VadooLoader;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private PlayerView playerView;
     private SimpleExoPlayer player;
     VadooLoader loader;
+    int http_data;
+    int p2p_data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +41,20 @@ public class MainActivity extends AppCompatActivity {
                         | WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
                         | WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
         setContentView(R.layout.activity_main);
+        TextView bandwidthmeter = findViewById(R.id.bandwidthmeter);
         loader = new VadooLoader(this);
+        DataListener dataListener = new DataListener() {
+            @Override
+            public void onData(String method, int bytes) {
+                if(method.equals("http")) {
+                    http_data += bytes;
+                } else {
+                    p2p_data += bytes;
+                }
+                bandwidthmeter.setText("Http :- " + String.format("%.2f", http_data*1.0/(1024*1024)) + " P2p :- " + String.format("%.2f", p2p_data*1.0/(1024*1024)));
+            }
+        };
+        loader.set_datalistener(dataListener);
         init_video();
     }
 
@@ -69,8 +85,7 @@ public class MainActivity extends AppCompatActivity {
                         VideoPlayerConfig.MIN_PLAYBACK_RESUME_BUFFER)
                 .setTargetBufferBytes(-1)
                 .setPrioritizeTimeOverSizeThresholds(true).createDefaultLoadControl();
-        String[] urls = {"https://m-c02-j2apps.s.llnwi.net/hls/0091.IndiaTV.in_144p/index.m3u8", "https://m-c07-j2apps.s.llnwi.net/hls/0069.Zoom.in.m3u8", "https://m-c036-j2apps.s.llnwi.net/hls/0098.DDNational.in_360p/index.m3u8", "https://m-c03-j2apps.s.llnwi.net/hls/6521.Movieplus.in_288p/index.m3u8", "https://m-c29-j2apps.s.llnwi.net/hls/5656.BloombergQuint.in_144p/index.m3u8", "https://m-c09-j2apps.s.llnwi.net/hls/8006.GamingTVEG.in_240p/index.m3u8", "https://m-c09-j2apps.s.llnwi.net/hls/8011.ShortFilmsTV.in_360p/index.m3u8"};
-        String VOD_URL = urls[2];
+        String VOD_URL = "https://d34mbcqhk5ge1k.cloudfront.net/index.m3u8";
         VOD_URL = loader.parseStreamUrl(VOD_URL);
         HlsMediaSource hlsMediaSource =
                 new HlsMediaSource.Factory(dataSourceFactory).createMediaSource(Uri.parse(VOD_URL));
