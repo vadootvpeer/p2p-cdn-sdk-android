@@ -30,12 +30,6 @@ Vadoo is powered by webrtc which distributes the load on users to reduce the ser
 
 To integrate with our sdk, follow the steps from here [Integration](Integration.md)
 
-## Sample apps
-
-To test out our sdk you can follow the examples from [Sample apps](sample_apps). 
-
-The sample apks display on the screen the bandwidth savings you get by distributing load on the peers 
-
 ## Browser Support
 WebRTC has already been incorporated into the HTML5 standard and it is broadly deployed in modern browsers. The compatibility of Vadoo depends on the browser support of WebRTC and Hls.js. Please note that iOS Safari "Mobile" does not support the MediaSource API.
 
@@ -44,6 +38,12 @@ WebRTC has already been incorporated into the HTML5 standard and it is broadly d
 WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ✔ |
 Hls.js | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 Vadoo | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ❌ |
+
+## Sample apps
+
+To test out our sdk you can follow the examples from [Sample apps](sample_apps). 
+
+The sample apks display on the screen the bandwidth savings you get by distributing load on the peers 
 
 ## Token generation
 
@@ -56,6 +56,10 @@ A token will be sent to your email id. Click on verification link in email to ve
 Complete Dashboard with monthly savings, billing, configurations and additional info is available at https://api.peervadoo.com/login 
 
 Login using the credentials of signup
+
+## Javascript sdk
+
+https://github.com/vadootvpeer/sdk-javascript
 
 ## Support
 
