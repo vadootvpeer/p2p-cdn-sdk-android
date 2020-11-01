@@ -22,6 +22,12 @@ Vadoo is powered by webrtc which distributes the load on users to reduce the ser
 
 A live web demo is available at https://api.peervadoo.com/test . Click on **Add new peer** to see the tech in action. You can change the existing url with your own m3u8 url.
 
+## Registration
+
+To get token for your application register from here https://api.peervadoo.com/register 
+
+A token will be sent to your email id. Click on verification link in email to verify and start using the token.
+
 ## Features
 - Support live and VOD streams over HLS protocol(m3u8)
 - Support encrypted HLS stream
@@ -48,12 +54,6 @@ Vadoo | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ❌ |
 To test out our sdk you can follow the examples from [Sample apps](sample_apps). 
 
 The sample apks display on the screen the bandwidth savings you get by distributing load on the peers 
-
-## Token generation
-
-To get token for your application register from here https://api.peervadoo.com/register 
-
-A token will be sent to your email id. Click on verification link in email to verify and start using the token.
 
 ## Bandwidth Savings info
 
