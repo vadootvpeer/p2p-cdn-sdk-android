@@ -2,11 +2,9 @@
 <img src="https://github.com/vadootvpeer/sdk-android/raw/master/logo.jpg"  width="150" height="150">  
 </p> 
 
-<h4 align="center">Android p2p cdn sdk to distribute load and reduce costs(https://peervadoo.com)</h4>
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvadootvpeer%2Fsdk-android&via=Vadoobot&text=Android%20Sdk%20to%20reduce%20video%20streaming%20costs%20by%2090%25&hashtags=cdn%2Cp2p%2Cvideo%2Cott%2Clive%2Cstreaming%2Candroid) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/vadootvpeer/sdk-android/blob/master/LICENSE) ![](https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat)
 
-<p align="center">
-<a href="https://android-arsenal.com/api?level=19"><img src="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat" alt="api"></a>        
-</p>  
+<h4>Android p2p cdn sdk to distribute load and reduce costs(https://peervadoo.com)</h4>
 
 Vadoo is a p2p sdk integration to reduce your video streaming costs by upto 30% and scale to 6x the number of users
 
