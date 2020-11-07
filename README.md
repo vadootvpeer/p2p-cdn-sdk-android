@@ -6,13 +6,13 @@
 
 <h4>Android p2p cdn sdk to distribute load and reduce costs(https://peervadoo.com)</h4>
 
-Vadoo is a p2p sdk integration to reduce your video streaming costs by upto 30% and scale to 6x the number of users
+Vadootv is a p2p sdk integration to reduce your video streaming costs by upto 30% and scale to 6x the number of users
 
 <p align="center">
 <img src="Vadoo_player.jpg"  width="300" height="500">
 </p>
 
-Vadoo is powered by webrtc which distributes the load on users to reduce the server costs and to improve scalability
+Vadootv is powered by webrtc which distributes the load on users to reduce the server costs and to improve scalability
 
 **First 10 GB data free every month using P2P(Peer 2 Peer) network** 
 
@@ -39,7 +39,7 @@ A token will be sent to your email id. Click on verification link in email to ve
 To integrate with our sdk, follow the steps from here [Integration](Integration.md)
 
 ## Browser Support
-WebRTC has already been incorporated into the HTML5 standard and it is broadly deployed in modern browsers. The compatibility of Vadoo depends on the browser support of WebRTC and Hls.js. Please note that iOS Safari "Mobile" does not support the MediaSource API.
+WebRTC has already been incorporated into the HTML5 standard and it is broadly deployed in modern browsers. The compatibility of Vadootv depends on the browser support of WebRTC and Hls.js. Please note that iOS Safari "Mobile" does not support the MediaSource API.
 
  Compatibility|Chrome | Firefox | macOS Safari| Android | Opera | Edge | IE | iOS Safari | 
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
